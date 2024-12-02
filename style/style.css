@@ -34,6 +34,7 @@ p {
     font-family: "TTLakes Medium" ;
     color: #7E7E82;
     margin-bottom: 40px;
+    margin-left:16px;
 }
 .brand-list {
 display: flex;
