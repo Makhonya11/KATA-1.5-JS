@@ -28,9 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 window.addEventListener('resize', toggleSwiper)
 
-let expendButton = document.querySelector('.expend');
-let swiperWrapper = document.querySelector('.swiper-wrapper');
-let swiperSlides = document.querySelectorAll('.hidden');
+const expendButton = document.querySelector('.expend');
+const swiperWrapper = document.querySelector('.swiper-wrapper');
+const swiperSlides = document.querySelectorAll('.hidden');
 expendButton.addEventListener('click', function () {
     for (let i = 0; i < swiperSlides.length; i++) {
             swiperSlides[i].classList.toggle('hidden')
